@@ -37,12 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "dependencies": {
-            "Codecov.Tool": {
-              "target": "Package",
-              "version": "[1.12.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

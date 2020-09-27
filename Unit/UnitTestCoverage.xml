@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SolutionRoot CoveredStatements="23" TotalStatements="23" CoveragePercent="100" ReportType="Xml" DotCoverVersion="2020.2.3">
-  <Project Name="Calculator" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
-    <Namespace Name="Calculator" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
-      <Type Name="calculator" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
-        <Constructor Name="calculator(double,double)" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" />
-        <Method Name="Addition(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
-        <Method Name="Multiplication(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
-        <Method Name="Subtraction(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
-        <Method Name="Вivision(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
-      </Type>
-    </Namespace>
-  </Project>
-  <Project Name="CalculatorTest" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+<Root CoveredStatements="6" TotalStatements="6" CoveragePercent="100" ReportType="DetailedXml" DotCoverVersion="2020.2.3">
+  <FileIndices>
+    <File Index="1" Name="C:\Users\User\Desktop\DOTNET REPOS\.netHomework\Calculator\Calculator\calculator.cs" ChecksumAlgorithm="SHA256" Checksum="1F76D95DA9A2A23844ECE15AD6103584D52D4EE205A2D648029B64E75B521A22" />
+    <File Index="2" Name="C:\Users\User\Desktop\DOTNET REPOS\.netHomework\Calculator\Calculator\Program.cs" ChecksumAlgorithm="SHA256" Checksum="18CC26A408A49C710113F3B9368F4A23C03198AC9D1E36B7F543301B8E6CE220" />
+    <File Index="3" Name="C:\Users\User\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs" ChecksumAlgorithm="SHA256" Checksum="D66F12F9433816A8C7DC1B2ACB9E1010F5418F5EEB51E80F1DF57AA1DCAB8D8A" />
+    <File Index="4" Name="C:\Users\User\Desktop\DOTNET REPOS\.netHomework\Calculator\CalculatorTest\UnitTest1.cs" ChecksumAlgorithm="SHA256" Checksum="01815F88D2CF1E0D3C05736BF5B7EE076550D4D50B8873C252DCC9151F3A0A87" />
+  </FileIndices>
+  <Assembly Name="CalculatorTest" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
     <Namespace Name="CalculatorTest" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
       <Type Name="Tests" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
-        <Method Name="Test1():void" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" />
+        <Method Name="Test1():System.Void" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+          <Statement FileIndex="4" Line="11" Column="9" EndLine="11" EndColumn="10" Covered="True" />
+          <Statement FileIndex="4" Line="12" Column="13" EndLine="12" EndColumn="63" Covered="True" />
+          <Statement FileIndex="4" Line="13" Column="13" EndLine="13" EndColumn="64" Covered="True" />
+          <Statement FileIndex="4" Line="14" Column="13" EndLine="14" EndColumn="64" Covered="True" />
+          <Statement FileIndex="4" Line="15" Column="13" EndLine="15" EndColumn="63" Covered="True" />
+          <Statement FileIndex="4" Line="17" Column="9" EndLine="17" EndColumn="10" Covered="True" />
+        </Method>
       </Type>
     </Namespace>
-  </Project>
-</SolutionRoot>
+  </Assembly>
+</Root>
