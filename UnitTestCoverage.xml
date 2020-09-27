@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SolutionRoot CoveredStatements="23" TotalStatements="23" CoveragePercent="100" ReportType="Xml" DotCoverVersion="2020.2.3">
+  <Project Name="Calculator" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
+    <Namespace Name="Calculator" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
+      <Type Name="calculator" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
+        <Constructor Name="calculator(double,double)" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" />
+        <Method Name="Addition(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+        <Method Name="Multiplication(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+        <Method Name="Subtraction(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+        <Method Name="Вivision(calculator):void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Project>
+  <Project Name="CalculatorTest" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+    <Namespace Name="CalculatorTest" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+      <Type Name="Tests" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+        <Method Name="Test1():void" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Project>
+</SolutionRoot>
