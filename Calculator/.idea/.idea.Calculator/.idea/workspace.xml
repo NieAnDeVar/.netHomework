@@ -61,6 +61,7 @@
       <updated>1601218145418</updated>
       <workItem from="1601218163164" duration="525000" />
       <workItem from="1601218905990" duration="614000" />
+      <workItem from="1601220389311" duration="434000" />
     </task>
     <servers />
   </component>
@@ -71,9 +72,14 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="225" />
+    <option name="symbolColumnWidth" value="259" />
     <coverage-tree-state>
-      <expand />
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
       <select />
     </coverage-tree-state>
   </component>
@@ -83,10 +89,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1601218680949">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1601220531824">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601218680949" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601220531824" />
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1601218397983">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
