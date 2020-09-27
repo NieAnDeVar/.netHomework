@@ -1,0 +1,91 @@
+Root: 
+ FileIndices: 
+  File: 
+   - 
+   _Index: 1
+    _Name: "C:\\Users\\User\\Desktop\\DOTNET REPOS\\.netHomework\\Calculator\\Calculator\\calculator.cs"
+    _ChecksumAlgorithm: SHA256
+    _Checksum: 1F76D95DA9A2A23844ECE15AD6103584D52D4EE205A2D648029B64E75B521A22
+   - 
+   _Index: 2
+    _Name: "C:\\Users\\User\\Desktop\\DOTNET REPOS\\.netHomework\\Calculator\\Calculator\\Program.cs"
+    _ChecksumAlgorithm: SHA256
+    _Checksum: 18CC26A408A49C710113F3B9368F4A23C03198AC9D1E36B7F543301B8E6CE220
+   - 
+   _Index: 3
+    _Name: "C:\\Users\\User\\.nuget\\packages\\microsoft.net.test.sdk\\16.2.0\\build\\netcoreapp1.0\\Microsoft.NET.Test.Sdk.Program.cs"
+    _ChecksumAlgorithm: SHA256
+    _Checksum: D66F12F9433816A8C7DC1B2ACB9E1010F5418F5EEB51E80F1DF57AA1DCAB8D8A
+   - 
+   _Index: 4
+    _Name: "C:\\Users\\User\\Desktop\\DOTNET REPOS\\.netHomework\\Calculator\\CalculatorTest\\UnitTest1.cs"
+    _ChecksumAlgorithm: SHA256
+    _Checksum: 01815F88D2CF1E0D3C05736BF5B7EE076550D4D50B8873C252DCC9151F3A0A87
+ Assembly: 
+  Namespace: 
+   Type: 
+    Method: 
+     Statement: 
+      - 
+   _FileIndex: 4
+       _Line: 11
+       _Column: 9
+       _EndLine: 11
+       _EndColumn: 10
+       _Covered: True
+      - 
+   _FileIndex: 4
+       _Line: 12
+       _Column: 13
+       _EndLine: 12
+       _EndColumn: 63
+       _Covered: True
+      - 
+   _FileIndex: 4
+       _Line: 13
+       _Column: 13
+       _EndLine: 13
+       _EndColumn: 64
+       _Covered: True
+      - 
+   _FileIndex: 4
+       _Line: 14
+       _Column: 13
+       _EndLine: 14
+       _EndColumn: 64
+       _Covered: True
+      - 
+   _FileIndex: 4
+       _Line: 15
+       _Column: 13
+       _EndLine: 15
+       _EndColumn: 63
+       _Covered: True
+      - 
+   _FileIndex: 4
+       _Line: 17
+       _Column: 9
+       _EndLine: 17
+       _EndColumn: 10
+       _Covered: True
+     _Name: "Test1():System.Void"
+     _CoveredStatements: 6
+     _TotalStatements: 6
+     _CoveragePercent: 100
+    _Name: Tests
+    _CoveredStatements: 6
+    _TotalStatements: 6
+    _CoveragePercent: 100
+   _Name: CalculatorTest
+   _CoveredStatements: 6
+   _TotalStatements: 6
+   _CoveragePercent: 100
+  _Name: CalculatorTest
+  _CoveredStatements: 6
+  _TotalStatements: 6
+  _CoveragePercent: 100
+ _CoveredStatements: 6
+ _TotalStatements: 6
+ _CoveragePercent: 100
+ _ReportType: DetailedXml
+ _DotCoverVersion: "2020.2.3"
