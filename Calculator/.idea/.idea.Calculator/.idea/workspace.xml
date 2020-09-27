@@ -28,6 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.Calculator">
@@ -59,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601218145418</updated>
       <workItem from="1601218163164" duration="525000" />
+      <workItem from="1601218905990" duration="304000" />
     </task>
     <servers />
   </component>
@@ -69,36 +71,13 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="170" />
+    <option name="symbolColumnWidth" value="225" />
     <coverage-tree-state>
-      <expand>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/23" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/23" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Calculator 100% 0/17" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/23" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Calculator 100% 0/17" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Calculator 100% 0/17" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 100% 0/23" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Calculator 100% 0/17" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Calculator 100% 0/17" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="calculator 100% 0/17" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </coverage-tree-state>
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
