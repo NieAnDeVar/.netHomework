@@ -1,34 +1,46 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
-open System.Collections.Generic
-
-
-let sum x y:(double) = x + y
-let div x y:(double) =  x / y
-let sub x y:(double) = x - y
-let mult x y:(double) = x * y
-let SplitStr (str:string) =
-    str.Split(" ")
+﻿open System
+let tryParseWith(tryParseFunc:string-> bool * _) = tryParseFunc >> function
+    | true, v -> Some v
+    |false, _ -> None
+type MaybeBuilder() =
+    member this.Bind(x, f)=
+        match x with
+        |None->None
+        |Some a ->f a
+    member this.Return(x) =
+        Some x
+let maybe = new MaybeBuilder()
+let add x y = x+y
+let subtract x y =x-y
+let multiply x y = x*y
+let divide x y =
+    match y with
+    |0.0 -> None
+    |_ -> Some(x/y)
     
-
-let CalculatePart1 x sign y =
-    match sign with
-    | "+" -> sum x y 
-    | "-" ->sub x y    
-    | "/" -> div x y 
-    | "*" ->  mult x y
-    
-let Calculate str =
-    let list = SplitStr str
-    let x = list.[0]|> double
-    let y = list.[2] |> double
-    CalculatePart1 x list.[1] y
-
-
-let x = Console.ReadLine() |> string
-let result = Calculate x 
-printf "Result: %A" result
+let calculate op x y=
+            match op with
+            | "+" -> Some(add x y)               
+            | "-" -> Some(subtract x y)    
+            | "/" -> divide x y
+            | "*" -> Some(multiply x y)    
+            | _ -> None
+            
+[<EntryPoint>]
+let main args=
+    let x = Console.ReadLine()|> tryParseWith Double.TryParse
+    let op = Console.ReadLine()
+    let y = Console.ReadLine()|>tryParseWith Double.TryParse
+    let result = maybe{
+        let! a = x
+        let! b = y
+        let! calc = calculate op a b
+        return calc
+    }
+    match result with
+    |None-> printf"Error"
+    |Some a -> printf "%f" a
+    0
 
 
     
