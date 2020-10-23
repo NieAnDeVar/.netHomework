@@ -1,0 +1,32 @@
+﻿using System;
+using System.Threading.Tasks;
+using CalculatorASP;
+using Microsoft.AspNetCore.Http;
+
+namespace CalculatorASP
+{
+    public class MiddlewareCalculator
+    {
+        private readonly RequestDelegate _next;
+        public MiddlewareCalculator(RequestDelegate next)
+        {
+            _next = next;
+        }
+
+        public async Task InvokeAsync(HttpContext context)
+        {
+            
+            
+            var expression = context.Request.Query["expression"];
+            var result = Calculator.Calc(expression);
+            if (result == "Error")
+                context.Response.StatusCode = 400;
+            else
+            {
+                context.Response.StatusCode = 200;
+                context.Response.Headers.Add("result", result);
+            }
+            await _next(context);
+        }
+    }
+}
