@@ -1,0 +1,32 @@
+﻿@page
+@model _56BALLOV.Pages.Result
+
+@{
+    Layout = null;
+}
+@{
+    string url = HttpContext.Request.Cookies["Url"];
+    int param = int.Parse(HttpContext.Request.Cookies["Param"]);
+    int Config = int.Parse(HttpContext.Request.Cookies["Config"]);
+    List<string> list =  models.ResultM.ParseSyte(url, param, Config, true).Result;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    @{
+        foreach (string s in list)
+        {
+          
+            <h6>@s</h6>
+        }
+        <input type="submit">
+    }
+</div>
+</body>
+</html>
